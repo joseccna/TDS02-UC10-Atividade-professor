@@ -42,5 +42,21 @@ namespace ControleEstoque.API.Controllers
             var novoGerente = await _usuarioService.RegistrarGerenteAsync(dto);
             return Ok(novoGerente);
         }
+
+
+        [HttpPost("Autenticar")]
+        public async Task<IActionResult> Autenticar([FromBody]LoginDto dto)
+        {
+            try
+            {
+                // Tenta executar um trecho de codigo 'perigoso' que pode lançar uma exceção
+
+            }
+            catch (Exception ex)
+            {
+                // Captura o erro, seja lá qual for, e guarda em no "EX"
+            }
+        }
+
     }
 }

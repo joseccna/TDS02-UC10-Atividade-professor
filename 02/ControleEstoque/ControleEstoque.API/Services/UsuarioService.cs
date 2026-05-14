@@ -9,18 +9,25 @@ namespace ControleEstoque.API.Services
     {
         private readonly AppDbContext _context;
 
-        public UsuarioService(AppDbContext context)
+        private readonly IPasswordService _passwordService;
+
+        public UsuarioService(AppDbContext context, IPasswordService passwordService)
         {
             _context = context;
+            _passwordService = passwordService;
         }
 
         public async Task<UsuarioDto> RegistrarClienteAsync(CriarClienteDto dto)
         {
+
+
+
+
             var cliente = new Cliente
             {
                 Nome = dto.Nome,
                 Email = dto.Email,
-                SenhaHash = dto.Senha, // Sem criptografia nesta etapa inicial
+                SenhaHash = _passwordService.HashPassword(dto.Senha), 
                 CPF = dto.CPF,
                 Perfil = PerfilUsuario.Cliente
             };
@@ -36,7 +43,7 @@ namespace ControleEstoque.API.Services
             {
                 Nome = dto.Nome,
                 Email = dto.Email,
-                SenhaHash = dto.Senha,
+                SenhaHash = _passwordService.HashPassword(dto.Senha),
                 Turno = dto.Turno,
                 Perfil = PerfilUsuario.Caixa
             };
@@ -52,7 +59,7 @@ namespace ControleEstoque.API.Services
             {
                 Nome = dto.Nome,
                 Email = dto.Email,
-                SenhaHash = dto.Senha,
+                SenhaHash = _passwordService.HashPassword(dto.Senha),
                 Setor = dto.Setor,
                 Perfil = PerfilUsuario.Gerente
             };
@@ -73,6 +80,28 @@ namespace ControleEstoque.API.Services
             var usuario = await _context.Usuarios.AsNoTracking().FirstOrDefaultAsync(u => u.Email == email);
             return usuario != null ? MapearParaDto(usuario) : null;
         }
+
+        public async Task <UsuarioDto?> AutenticarAsync(LoginDto dto)
+        {
+            //buscar usuario por email no banco
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == dto.Email);
+            // se não encontrar, retornar null
+            if (usuario == null) return null;
+            // se encontrar, verificar senha, confere com o que tá no banco 
+            // se não estiver correta, retornar null
+
+            if (_passwordService.VerifyPassword(dto.Senha, usuario.SenhaHash))
+                return null;
+
+            // estando correto, retorna a dto do usuario
+            return MapearParaDto(usuario);
+        }
+
+
+
+
+
+
 
         private static UsuarioDto MapearParaDto(Usuario usuario)
         {
