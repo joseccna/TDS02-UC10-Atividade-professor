@@ -98,7 +98,42 @@ namespace ControleEstoque.API.Services
         }
 
 
+        public async Task AtualizarClienteAsync(AtualizarClienteDto dto)
+        {
+            // Buscar o cliente no banco de dados
+            var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.Id == dto.Id);
 
+            if (cliente == null) throw new KeyNotFoundException("Cliente não encontrado");
+
+            // verificar se o e-mail ja existe
+
+            if (cliente.Email != dto.Email)
+            {
+                var emailJaExiste = await _context.Usuarios.AnyAsync(u  => u.Email == dto.Email);
+
+
+                if (emailJaExiste) throw new InvalidOperationException("Esse email já está cadastrador!");
+                
+            }
+
+            // atualizar a snha, se foi fornecida
+            if (!string.IsNullOrEmpty(dto.Senha))
+            {
+                cliente.SenhaHash = _passwordService.HashPassword(dto.Senha);
+
+            }
+
+
+            cliente.Email = dto.Email;
+            cliente.Nome = dto.Nome;
+            cliente.CPF = dto.CPF;
+
+
+            // salva as mudanças
+            _context.Clientes.Update(cliente);
+            await _context.SaveChangesAsync();
+
+        }
 
 
 

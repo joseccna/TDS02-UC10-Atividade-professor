@@ -51,14 +51,13 @@ namespace ControleEstoque.API.Controllers
             {
                 // Tenta executar um trecho de codigo 'perigoso' que pode lançar uma exceção
                 var usuario = await _usuarioService.AutenticarAsync(dto);
-                if (usuario == null)return NotFound();
+                if (usuario == null)return Unauthorized(new { message = "Email ou Senha incorretos" });// messagem em json
 
-                return Ok(usuario);
+                    return Ok(usuario);
             }
             catch (Exception ex)
             {
-                return null;
-                // Captura o erro, seja lá qual for, e guarda em no "EX"
+                return BadRequest(new { mesagem = ex.Message });
             }
             
         }
