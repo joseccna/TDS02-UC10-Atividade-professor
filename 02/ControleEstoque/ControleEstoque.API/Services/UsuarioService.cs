@@ -90,7 +90,7 @@ namespace ControleEstoque.API.Services
             // se encontrar, verificar senha, confere com o que tá no banco 
             // se não estiver correta, retornar null
 
-            if (_passwordService.VerifyPassword(dto.Senha, usuario.SenhaHash))
+            if (!_passwordService.VerifyPassword(dto.Senha, usuario.SenhaHash))
                 return null;
 
             // estando correto, retorna a dto do usuario

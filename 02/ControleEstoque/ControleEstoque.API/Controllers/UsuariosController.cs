@@ -50,12 +50,17 @@ namespace ControleEstoque.API.Controllers
             try
             {
                 // Tenta executar um trecho de codigo 'perigoso' que pode lançar uma exceção
+                var usuario = await _usuarioService.AutenticarAsync(dto);
+                if (usuario == null)return NotFound();
 
+                return Ok(usuario);
             }
             catch (Exception ex)
             {
+                return null;
                 // Captura o erro, seja lá qual for, e guarda em no "EX"
             }
+            
         }
 
     }
