@@ -23,6 +23,6 @@ namespace ControleEstoque.API.Services
         Task RemoverUsuarioAsync(int id);
 
         // Autenticação
-        Task<UsuarioDto?> AutenticarAsync(LoginDto dto);
+        Task<TokenDto?> AutenticarAsync(LoginDto dto);
     }
 }

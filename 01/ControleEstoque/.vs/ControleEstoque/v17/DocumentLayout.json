@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\",
+  "WorkspaceRootPath": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\aecio.mbrito\\documents\\tds02-uc10\\01\\controleestoque\\controleestoque.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\atividadeprofessor\\tds02-uc10-atividade-professor\\01\\controleestoque\\controleestoque.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6641EA26-0657-4EF5-B145-F6F5B0553EFC}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,54 +42,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 232,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ControleEstoque.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\appsettings.Development.json",
+              "RelativeToolTip": "ControleEstoque.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-25T22:43:55.819Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Program.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
               "RelativeToolTip": "ControleEstoque.API\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T00:43:38.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FornecedoresController.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\FornecedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\FornecedoresController.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Controllers\\FornecedoresController.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\FornecedoresController.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\FornecedoresController.cs",
               "RelativeToolTip": "ControleEstoque.API\\Controllers\\FornecedoresController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T00:39:43.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T00:39:43.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IUsuarioService.cs",
               "RelativeToolTip": "ControleEstoque.API\\Services\\IUsuarioService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T22:55:27.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T22:55:27.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\DTOs\\UsuarioDto.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\UsuarioDto.cs",
               "RelativeToolTip": "ControleEstoque.API\\DTOs\\UsuarioDto.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,11 +108,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Models\\Usuario.cs",
               "RelativeToolTip": "ControleEstoque.API\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,11 +120,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Services\\UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Services\\UsuarioService.cs",
               "RelativeToolTip": "ControleEstoque.API\\Services\\UsuarioService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA9wHsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\TDS02-UC10\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\AtividadeProfessor\\TDS02-UC10-Atividade-professor\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "ControleEstoque.API\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAmwDoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
