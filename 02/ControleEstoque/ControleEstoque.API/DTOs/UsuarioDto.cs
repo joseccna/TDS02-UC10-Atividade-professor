@@ -24,6 +24,15 @@ namespace ControleEstoque.API.DTOs
         public string Senha { get; set; } = string.Empty;
     }
 
+
+    public class TokenDto 
+    {
+        public string Token { get; set; } = string.Empty;
+        public UsuarioDto? Usuario { get; set; }
+        public DateTime ExpiresIn { get; set; }
+    }
+
+
     public class CriarClienteDto
     {
         public string Nome { get; set; } = string.Empty;

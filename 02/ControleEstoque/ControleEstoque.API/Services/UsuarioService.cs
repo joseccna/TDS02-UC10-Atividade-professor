@@ -9,11 +9,13 @@ namespace ControleEstoque.API.Services
     {
         private readonly AppDbContext _context;
         private readonly IPasswordService _passwordService;
+        private readonly ITokenService _tokenService;
 
-        public UsuarioService(AppDbContext context, IPasswordService passwordService)
+        public UsuarioService(AppDbContext context, IPasswordService passwordService, ITokenService tokenService)
         {
             _context = context;
             _passwordService = passwordService;
+            _tokenService = tokenService;
         }
 
         #region Registro
@@ -200,7 +202,7 @@ namespace ControleEstoque.API.Services
 
         #region Autenticação
 
-        public async Task<UsuarioDto?> AutenticarAsync(LoginDto dto)
+        public async Task<TokenDto?> AutenticarAsync(LoginDto dto)
         {
             var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == dto.Email);
             if (usuario == null)
@@ -210,7 +212,16 @@ namespace ControleEstoque.API.Services
             if (!_passwordService.VerifyPassword(dto.Senha, usuario.SenhaHash))
                 return null;
 
-            return MapearParaDto(usuario);
+            var token = _tokenService.GerarToken(usuario);
+
+
+            return new TokenDto
+            {
+                Token = token,
+                Usuario = MapearParaDto(usuario),
+                ExpiresIn = DateTime.UtcNow.AddHours(12) // Exemplo de expiração
+            };
+
         }
 
         #endregion
