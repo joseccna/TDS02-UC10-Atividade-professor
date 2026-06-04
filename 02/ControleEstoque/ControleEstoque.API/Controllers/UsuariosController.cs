@@ -1,11 +1,14 @@
 using ControleEstoque.API.DTOs;
 using ControleEstoque.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+//login é aberto para todos, o restante precisa estar autenticado.
 
 namespace ControleEstoque.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;
@@ -18,6 +21,7 @@ namespace ControleEstoque.API.Controllers
         #region Registro
 
         [HttpPost("registrar-cliente")]
+        [Authorize]
         public async Task<IActionResult> RegistrarCliente([FromBody] CriarClienteDto dto)
         {
             try
@@ -64,6 +68,7 @@ namespace ControleEstoque.API.Controllers
         #region Atualização
 
         [HttpPut("atualizar-cliente")]
+        [Authorize]
         public async Task<IActionResult> AtualizarCliente([FromBody] AtualizarClienteDto dto)
         {
             try
@@ -122,6 +127,8 @@ namespace ControleEstoque.API.Controllers
         #region Consulta
 
         [HttpGet]
+        [Authorize]
+
         public async Task<IActionResult> GetAll()
         {
             var usuarios = await _usuarioService.ListarTodosUsuariosAsync();
@@ -149,6 +156,8 @@ namespace ControleEstoque.API.Controllers
         #region Deleção
 
         [HttpDelete("{id}")]
+        [Authorize]
+
         public async Task<IActionResult> Delete(int id)
         {
             try

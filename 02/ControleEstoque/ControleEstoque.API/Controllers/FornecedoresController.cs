@@ -1,11 +1,15 @@
 using ControleEstoque.API.DTOs;
 using ControleEstoque.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleEstoque.API.Controllers
 {
-    [ApiController]
+    [ApiController]// so gerente podem tomar ações em fornecedores.
+
     [Route("api/[controller]")]
+    [Authorize(Roles = "Gerente")]
+
     public class FornecedoresController : ControllerBase
     {
         private readonly IFornecedorService _fornecedorService;

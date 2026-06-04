@@ -3,6 +3,9 @@ using ControleEstoque.API.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+// qualquer usuario autenticado pode ver os produtos, 
+// apenas gerentes podem criar, atualizar e deletar produtos
+
 namespace ControleEstoque.API.Controllers
 {
     [ApiController]
@@ -17,6 +20,7 @@ namespace ControleEstoque.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             var produtos = await _produtoService.ObterTodosAsync();
@@ -33,6 +37,7 @@ namespace ControleEstoque.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Gerente")]
         public async Task<IActionResult> Create([FromBody] CriarProdutoDto dto)
         {
             var novoProduto = await _produtoService.CriarAsync(dto);
@@ -40,6 +45,8 @@ namespace ControleEstoque.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Gerente")]
+
         public async Task<IActionResult> Update(int id, [FromBody] AtualizarProdutoDto dto)
         {
             if (id != dto.Id) return BadRequest("O ID da rota difere do ID do produto.");
@@ -49,6 +56,8 @@ namespace ControleEstoque.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Gerente")]
+
         public async Task<IActionResult> Delete(int id)
         {
             await _produtoService.RemoverAsync(id);
