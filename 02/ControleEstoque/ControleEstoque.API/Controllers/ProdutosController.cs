@@ -1,5 +1,6 @@
 using ControleEstoque.API.DTOs;
 using ControleEstoque.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleEstoque.API.Controllers
@@ -23,6 +24,7 @@ namespace ControleEstoque.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<IActionResult> GetById(int id)
         {
             var produto = await _produtoService.ObterPorIdAsync(id);
